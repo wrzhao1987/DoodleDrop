@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5DA49817B3B33300B87B0C /* alien-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49217B3B33200B87B0C /* alien-hd.png */; };
+		5B5DA49917B3B33300B87B0C /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49317B3B33200B87B0C /* alien.png */; };
+		5B5DA49A17B3B33300B87B0C /* bitmapfont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49417B3B33300B87B0C /* bitmapfont-hd.fnt */; };
+		5B5DA49B17B3B33300B87B0C /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49517B3B33300B87B0C /* bitmapfont.fnt */; };
+		5B5DA49C17B3B33300B87B0C /* spider-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49617B3B33300B87B0C /* spider-hd.png */; };
+		5B5DA49D17B3B33300B87B0C /* spider.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DA49717B3B33300B87B0C /* spider.png */; };
 		5B8DFB9717B351CA00E4918F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DFB9617B351CA00E4918F /* Default-568h@2x.png */; };
 		5B8DFB9A17B3547100E4918F /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFB9917B3547100E4918F /* GameLayer.m */; };
-		5B8DFBBA17B358C000E4918F /* alien-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DFBB817B358C000E4918F /* alien-hd.png */; };
-		5B8DFBBB17B358C000E4918F /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DFBB917B358C000E4918F /* alien.png */; };
-		5B8DFBBE17B3880C00E4918F /* spider-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DFBBC17B3880C00E4918F /* spider-hd.png */; };
-		5B8DFBBF17B3880C00E4918F /* spider.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DFBBD17B3880C00E4918F /* spider.png */; };
+		5BE3BE0A17B49FB600261E53 /* alien-sfx.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3BE0817B49FB600261E53 /* alien-sfx.caf */; };
+		5BE3BE0B17B49FB600261E53 /* blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3BE0917B49FB600261E53 /* blues.mp3 */; };
 		DC0864B815BD8CE60044A820 /* CCNode+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0864B515BD8CE60044A820 /* CCNode+Debug.h */; };
 		DC0864B915BD8CE60044A820 /* CCNode+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0864B615BD8CE60044A820 /* CCNode+Debug.m */; };
 		DC0864BA15BD8CE60044A820 /* ccCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0864B715BD8CE60044A820 /* ccCArray.m */; };
@@ -266,13 +270,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B5DA49217B3B33200B87B0C /* alien-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-hd.png"; sourceTree = "<group>"; };
+		5B5DA49317B3B33200B87B0C /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		5B5DA49417B3B33300B87B0C /* bitmapfont-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bitmapfont-hd.fnt"; sourceTree = "<group>"; };
+		5B5DA49517B3B33300B87B0C /* bitmapfont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapfont.fnt; sourceTree = "<group>"; };
+		5B5DA49617B3B33300B87B0C /* spider-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spider-hd.png"; sourceTree = "<group>"; };
+		5B5DA49717B3B33300B87B0C /* spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spider.png; sourceTree = "<group>"; };
 		5B8DFB9617B351CA00E4918F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B8DFB9817B3547100E4918F /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
 		5B8DFB9917B3547100E4918F /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
-		5B8DFBB817B358C000E4918F /* alien-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alien-hd.png"; path = "../../alien-hd.png"; sourceTree = "<group>"; };
-		5B8DFBB917B358C000E4918F /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alien.png; path = ../../alien.png; sourceTree = "<group>"; };
-		5B8DFBBC17B3880C00E4918F /* spider-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spider-hd.png"; sourceTree = "<group>"; };
-		5B8DFBBD17B3880C00E4918F /* spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spider.png; sourceTree = "<group>"; };
+		5BE3BE0817B49FB600261E53 /* alien-sfx.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alien-sfx.caf"; sourceTree = "<group>"; };
+		5BE3BE0917B49FB600261E53 /* blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blues.mp3; sourceTree = "<group>"; };
 		DC0864B515BD8CE60044A820 /* CCNode+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+Debug.h"; sourceTree = "<group>"; };
 		DC0864B615BD8CE60044A820 /* CCNode+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+Debug.m"; sourceTree = "<group>"; };
 		DC0864B715BD8CE60044A820 /* ccCArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccCArray.m; sourceTree = "<group>"; };
@@ -565,7 +573,7 @@
 		DC0C49E6154AB4DD00B4B727 = {
 			isa = PBXGroup;
 			children = (
-				DC0C4A07154AB4DD00B4B727 /* cocos2d-2.x-ARC-iOS */,
+				DC0C4A07154AB4DD00B4B727 /* DoodleDrop */,
 				DC0C49F4154AB4DD00B4B727 /* Frameworks */,
 				DC0C49F2154AB4DD00B4B727 /* Products */,
 			);
@@ -596,7 +604,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC0C4A07154AB4DD00B4B727 /* cocos2d-2.x-ARC-iOS */ = {
+		DC0C4A07154AB4DD00B4B727 /* DoodleDrop */ = {
 			isa = PBXGroup;
 			children = (
 				5B8DFB9817B3547100E4918F /* GameLayer.h */,
@@ -607,16 +615,21 @@
 				DC0C4B93154AB59800B4B727 /* libs */,
 				DC0C4B74154AB4DF00B4B727 /* Supporting Files */,
 			);
+			name = DoodleDrop;
 			path = "cocos2d-2.x-ARC-iOS";
 			sourceTree = "<group>";
 		};
 		DC0C4A08154AB4DD00B4B727 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B8DFBBC17B3880C00E4918F /* spider-hd.png */,
-				5B8DFBBD17B3880C00E4918F /* spider.png */,
-				5B8DFBB817B358C000E4918F /* alien-hd.png */,
-				5B8DFBB917B358C000E4918F /* alien.png */,
+				5BE3BE0817B49FB600261E53 /* alien-sfx.caf */,
+				5BE3BE0917B49FB600261E53 /* blues.mp3 */,
+				5B5DA49217B3B33200B87B0C /* alien-hd.png */,
+				5B5DA49317B3B33200B87B0C /* alien.png */,
+				5B5DA49417B3B33300B87B0C /* bitmapfont-hd.fnt */,
+				5B5DA49517B3B33300B87B0C /* bitmapfont.fnt */,
+				5B5DA49617B3B33300B87B0C /* spider-hd.png */,
+				5B5DA49717B3B33300B87B0C /* spider.png */,
 				5B8DFB9617B351CA00E4918F /* Default-568h@2x.png */,
 				DC0C4A09154AB4DD00B4B727 /* Default.png */,
 				DC0C4A0B154AB4DD00B4B727 /* fps_images.png */,
@@ -1193,10 +1206,14 @@
 				DC0C4A1C154AB4DD00B4B727 /* Icon@2x.png in Resources */,
 				DC0C4A1F154AB4DD00B4B727 /* iTunesArtwork in Resources */,
 				5B8DFB9717B351CA00E4918F /* Default-568h@2x.png in Resources */,
-				5B8DFBBA17B358C000E4918F /* alien-hd.png in Resources */,
-				5B8DFBBB17B358C000E4918F /* alien.png in Resources */,
-				5B8DFBBE17B3880C00E4918F /* spider-hd.png in Resources */,
-				5B8DFBBF17B3880C00E4918F /* spider.png in Resources */,
+				5B5DA49817B3B33300B87B0C /* alien-hd.png in Resources */,
+				5B5DA49917B3B33300B87B0C /* alien.png in Resources */,
+				5B5DA49A17B3B33300B87B0C /* bitmapfont-hd.fnt in Resources */,
+				5B5DA49B17B3B33300B87B0C /* bitmapfont.fnt in Resources */,
+				5B5DA49C17B3B33300B87B0C /* spider-hd.png in Resources */,
+				5B5DA49D17B3B33300B87B0C /* spider.png in Resources */,
+				5BE3BE0A17B49FB600261E53 /* alien-sfx.caf in Resources */,
+				5BE3BE0B17B49FB600261E53 /* blues.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
